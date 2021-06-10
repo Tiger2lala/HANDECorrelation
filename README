@@ -1,0 +1,5 @@
+# Correlation estimator for HANDE calculations
+
+This code is an implementation of using the (statistical) correlation in the coupled cluster Monte Carlo calculations (with [HANDE](https://github.com/hande-qmc/hande)) to reduce the stochastic error in projected energies.
+
+At the moment, this can only work for small systems where FCI can be performed. Comparing the results with standard analysis methods is highly recommended.
